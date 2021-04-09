@@ -1,0 +1,7 @@
+{
+  "name": "Anti Crash",
+  "description": "Notifies and removes crashers in the current channel.",
+  "author": "auto#8689",
+  "license": "MIT",
+  "version": "1.0.0"
+}
