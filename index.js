@@ -3,7 +3,7 @@ const { getModule } = require('powercord/webpack');
 const { inject, uninject } = require('powercord/injector');
 
 // Crasher URLs
-let urls = [
+const urls = [
     "https:\/\/tornadus\.net\/.*" //https://tornadus.net/orange
 ]
 
@@ -20,15 +20,20 @@ module.exports = class AntiCrash extends Plugin {
 
                 //Removes message if url is found.
                 if (content.match(url)) {
-                    args[0]['childrenAccessories']['props']['message']['content'] = '';
-                    res = '';
 
                     const authorName = args[0]['childrenAccessories']['props']['message']["author"]["username"];
                     const authorDiscriminator = args[0]['childrenAccessories']['props']['message']["author"]["discriminator"];
+
+                    //Deletes message
+                    args[0]['childrenAccessories']['props']['message'] = '';
+                    res = '';
+
                     const toastContent = `${authorName}#${authorDiscriminator}`
 
+                    console.log(`Crasher sent by ${toastContent}`)
+
                     //Sends toast to annouce removal.
-                    powercord.api.notices.sendToast('remove-toast', {
+                    powercord.api.notices.sendToast(`remove-crasher-toast`, {
                         header: 'Crasher Detected',
                         timeout: 4e3,
                         content: `Removed. Sent by ${toastContent}`,
