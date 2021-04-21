@@ -4,7 +4,24 @@ const { inject, uninject } = require('powercord/injector');
 
 // Crasher URLs
 const urls = [
-    "https:\/\/tornadus\.net\/.*" //https://tornadus.net/orange
+    "https:\/\/tornadus\.net\/.*", //https://tornadus.net/orange
+    "https:\/\/aguo\.dev\/gif", // https://aguo.dev/gif
+    "https:\/\/animebitchesforfree\.neocities\.org\/reddit_rat\.html", // https://animebitchesforfree.neocities.org/reddit_rat.html
+    "https:\/\/bit\.ly\/3wF5HYK", // https://bit.ly/3wF5HYK
+    "http:\/\/darkkycrash\.tk\/", // http://darkkycrash.tk/
+    "https:\/\/discordcrash\.luispatricio\.repl\.co\/", // https://discordcrash.luispatricio.repl.co/
+    "https:\/\/gfycat\.com\/firsthandscratchybeetle", // https://gfycat.com/firsthandscratchybeetle
+    "https:\/\/gfycat\.com\/importantthankfuliceblueredtopzebra", // https://gfycat.com/importantthankfuliceblueredtopzebra
+    "https:\/\/gfycat\.com\/neatphonyacornweevil", // https://gfycat.com/neatphonyacornweevil
+    "https:\/\/gfycat\.com\/plainwastefulgermanpinscher", // https://gfycat.com/plainwastefulgermanpinscher
+    "https:\/\/giant\.gfycat\.com\/ApprehensiveRequiredHypsilophodon\.mp4", // https://giant.gfycat.com/ApprehensiveRequiredHypsilophodon.mp4
+    "https:\/\/giant\.gfycat\.com\/UnderstatedThreadbareBear\.mp4", // https://giant.gfycat.com/UnderstatedThreadbareBear.mp4
+    "https:\/\/i\.gyazo\.org\/fa046za0a359qeecgyanu5tq76ui7wbn", // https://i.gyazo.org/fa046za0a359qeecgyanu5tq76ui7wbn
+    "http:\/\/invisiblecrashdarkky\.tk\/", // http://invisiblecrashdarkky.tk/
+    "https:\/\/restockflippers\.co\/discord-crash", // https://restockflippers.co/discord-crash
+    "https:\/\/thumbs\.gfycat\.com\/BlackSadBluebottlejellyfish-size_restricted\.gif", // https://thumbs.gfycat.com/BlackSadBluebottlejellyfish-size_restricted.gif
+    "https:\/\/thumbs\.gfycat\.com\/OffensiveJampackedAgama-mobile\.mp4", // https://thumbs.gfycat.com/OffensiveJampackedAgama-mobile.mp4
+    "https:\/\/thumbs\.gfycat\.com\/TartAdolescentBird-mobile\.mp4" // https://thumbs.gfycat.com/TartAdolescentBird-mobile.mp4
 ]
 
 module.exports = class AntiCrash extends Plugin {
