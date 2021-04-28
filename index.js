@@ -21,7 +21,10 @@ const urls = [
     "https:\/\/restockflippers\.co\/discord-crash", // https://restockflippers.co/discord-crash
     "https:\/\/thumbs\.gfycat\.com\/BlackSadBluebottlejellyfish-size_restricted\.gif", // https://thumbs.gfycat.com/BlackSadBluebottlejellyfish-size_restricted.gif
     "https:\/\/thumbs\.gfycat\.com\/OffensiveJampackedAgama-mobile\.mp4", // https://thumbs.gfycat.com/OffensiveJampackedAgama-mobile.mp4
-    "https:\/\/thumbs\.gfycat\.com\/TartAdolescentBird-mobile\.mp4" // https://thumbs.gfycat.com/TartAdolescentBird-mobile.mp4
+    "https:\/\/thumbs\.gfycat\.com\/TartAdolescentBird-mobile\.mp4", // https://thumbs.gfycat.com/TartAdolescentBird-mobile.mp4
+    "https:\/\/gfycat\.com\/animatedarcticcero", // https://gfycat.com/animatedarcticcero
+    "https:\/\/giant\.gfycat\.com\/infantileyearlyauklet", // https://giant.gfycat.com/infantileyearlyauklet
+    "https:\/\/thumbs\.gfycat\.com\/UntimelyExemplaryAmericanredsquirrel-mobile\.jpg" // https://thumbs.gfycat.com/UntimelyExemplaryAmericanredsquirrel-mobile.jpg
 ]
 
 module.exports = class AntiCrash extends Plugin {
